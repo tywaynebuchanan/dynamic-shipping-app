@@ -65,7 +65,7 @@ img {
 
 @media screen and (max-width: 390px){
     .container{
-        width: 370px;
+        width: 350px;
         margin: 0 auto;
         height: 50vh;
     }
