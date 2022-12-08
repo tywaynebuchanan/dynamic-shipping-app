@@ -9,6 +9,71 @@
 :root{
     --grey: #e5e5e5;
     --light: #fff;
+    --red: #db2b39;
+    --blue: #29335c;
+    --yellow: #f3a712;
+    --orange: #f46036;
+    --dark-blue: #2E294E;
+    --light-blue: #6d6983;
+    --teil: #1b998b;
+ 
+}
+
+//Animations
+
+.bounce2 {
+    animation: bounce2 6s ease infinite;
+}
+ 
+@keyframes bounce2 {
+      0%, 10%, 20%, 30%, 50%, 80%, 100% {transform: translateY(0);}
+      40% {transform: translateY(-20px);}
+      60% {transform: translateY(-19px);}
+  }
+
+
+//Colors
+
+.grey{
+    color: var(--grey);
+}
+
+.light{
+    color: var(--light);
+}
+
+.red{
+    color:var(--red);
+}
+
+.blue{
+    color: var(--blue);
+}
+
+.yellow{
+    color: var(--yellow);
+}
+
+.orange{
+    color: var(--orange);
+}
+
+.darkblue{
+    color: var(--dark-blue);
+}
+
+.light-blue{
+    color:var(--light-blue);
+    background-color: var(--light-blue);
+}
+
+.btn-orange{
+    background-color: var(--orange);
+}
+
+.light:{
+    background-color: var(--light);
+    color: var(--light);
 }
 
 a{
@@ -20,11 +85,16 @@ li{
 }
 
 body{
-    background-color: var(--grey);
+    background-color: var(--light);
+    font-family: "Poppins", sans-serif;
+}
+
+.home-body{
+    background-color: var(--dark-blue);
 }
 
 .container{
-    width: 800px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -62,6 +132,232 @@ img {
     font-family: "Poppins", sans-serif;
     font-weight: 500;
 }
+
+//Home Page CSS //
+
+//Navbar
+
+.header{
+    display: flex;
+    padding: 1rem 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .logo{
+    width: 100%;
+} */
+
+.logo {
+    width: 100px;
+}
+
+.fa-brands{
+    color: var(--light);
+}
+
+
+
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    color: var(--light);
+}
+
+.nav-items{
+    display: flex;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn{
+   
+    border-radius: 20px;
+    padding: .2rem 1.75rem;
+    color: var(--light);
+    background: hsla(13, 90%, 58%, 1);
+    background: linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F46036", endColorstr="#F79072", GradientType=1 );
+    
+}
+
+//Navbar End
+
+//CTA Section 
+
+.cta{
+    padding: 4.8rem 0 9.6rem 0;
+    background-color: orange;
+
+}
+
+.cta-info{
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 6rem 0rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.heading{
+    font-size: 6rem;
+    font-family: "Fira Sans", sans-serif;
+    line-height: 1;
+    margin-bottom: 0;
+}   
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    
+}
+
+
+.info-text-1{
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.info-text-2{
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.cta-btn{
+    text-align: center;
+    color: var(--light);
+  
+}
+
+.button{
+    width: 50%;
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 1rem 1.75rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    background: hsla(13, 90%, 58%, 1);
+    background: linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F46036", endColorstr="#F79072", GradientType=1 );
+
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+.image-section{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.image-section img{
+    width: 500px;
+    animation: bounce2 2s ease infinite;
+   
+}
+
+//CTA CSS End
+
+//How it works section 
+
+.howwework{
+    padding: 4.8rem 0 9.6rem 0;
+}
+
+.howwework h1{
+    text-align: center;
+    color:var(--light);
+    font-size: 2.5rem;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.info-box{
+    display: grid;
+    /* flex-direction: row; */
+    grid-template-columns: repeat(4,1fr);
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 6rem 0rem;
+    align-items: stretch;
+    justify-content: center;
+    gap: 30px;
+
+}
+.boxes{
+    background-color: var(--teil);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    padding: 10px;    
+
+}
+
+.gradient-boxes{
+    background: hsla(173, 70%, 35%, 1);
+    background: radial-gradient(circle, hsla(173, 70%, 35%, 1) 0%, hsla(174, 71%, 25%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(173, 70%, 35%, 1) 0%, hsla(174, 71%, 25%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(173, 70%, 35%, 1) 0%, hsla(174, 71%, 25%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1b998b", endColorstr="#136e65", GradientType=1 );
+}
+
+.boxes h1{
+    font-size: 4rem;
+    margin-top:0;
+    margin-bottom: 0;
+    color: var(--light);
+}
+.boxes h2{
+    font-weight: 400;
+    margin-top:0;
+    margin-bottom: 10px;
+    color: var(--light);
+}
+
+.boxes p{
+    text-align: center;
+    color: var(--light);
+    font-weight: 200;
+    font-size: 1rem;
+}
+.sign-up-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-img{
+    width: 100px;
+}
+//How it works section end
+
+//Home Page CSS End
 
 @media screen and (max-width: 390px){
     .container{
