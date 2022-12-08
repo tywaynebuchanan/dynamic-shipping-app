@@ -16,6 +16,7 @@
     --dark-blue: #2E294E;
     --light-blue: #6d6983;
     --teil: #1b998b;
+    --blend-mode: 'darken, luminosity';
  
 }
 
@@ -91,6 +92,14 @@ body{
 
 .home-body{
     background-color: var(--dark-blue);
+    /* background-image: url('/img/dots.jpg');
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover; */
+    /* background-blend-mode: revert-layer; */
+    /* background-blend-mode: var(--blend-mode); */ */
+    
+    /* height: 500px; */
 }
 
 .container{
@@ -180,7 +189,9 @@ img {
     display: flex;
     padding: 1rem;
     cursor: pointer;
+    font-weight: 300;
 }
+
 
 .btn{
    
@@ -269,7 +280,6 @@ img {
 
 .image-section{
     width: 100%;
-    text-align: center;
     
 }
 
