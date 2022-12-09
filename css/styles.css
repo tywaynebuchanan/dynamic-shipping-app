@@ -21,6 +21,8 @@ html{
     --light-blue: #6d6983;
     --teil: #1b998b;
     --blend-mode: 'darken, luminosity';
+    --reg: '1100px';
+    --xl:'1300px';
  
 }
 
@@ -92,25 +94,19 @@ li{
 body{
     background-color: var(--light);
     font-family: "Poppins", sans-serif;
-    scrol
+    
 }
 
 .home-body{
     background-color: var(--blue);
-    /* background-image: url('/img/dots.jpg');
-    background-repeat: no-repeat, repeat;
-    background-position: center;
-    background-size: cover; */
-    /* background-blend-mode: revert-layer; */
-    /* background-blend-mode: var(--blend-mode); */ */
-    
-    /* height: 500px; */
+
 }
 
 .container{
     width: 1100px;
     margin: 0 auto;
 }
+
 
 
 
@@ -197,6 +193,17 @@ img {
     padding: 1rem;
     cursor: pointer;
     font-weight: 300;
+    
+}
+
+.nav-items a, .nav-items a:visited{
+    color: var(--light);
+}
+
+.nav-items a:hover{
+    color: var(--teil);
+    border-bottom: 2px solid var(--teil);
+    transition: 0.3s ease;
 }
 
 
@@ -219,11 +226,11 @@ img {
 
 .cta{
     padding: 4.8rem 0 9.6rem 0;
-    background-color: orange;
 
 }
 
 .cta-info{
+    
     max-width: 130rem;
     margin: 0 auto;
     padding: 6rem 0rem;
@@ -463,6 +470,13 @@ img {
 //
 
 //Home Page CSS End
+
+
+//Contact US Page CSS Start
+
+
+
+//Contact US Page CSS End
 
 @media screen and (max-width: 390px){
     .container{
