@@ -4,75 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/styles.css">
+
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
     <title>Dynamic Shipping &mdash; Your Courier Partner</title>
 </head>
-<body class="home-body">
+
+<body>
+  <body class="home-body">
  
 <!--Navbar-->
-<!-- <div class="container">
+<div class="container">
     <header class="header">
         <nav class="navbar">
             <div class="logo">
-                <img src="/img/logo-transparent.png" alt="Logo" class="logo">
+                <img src="/img/logo-white.png" alt="Logo" class="logo">
             </div>
                 <ul class="navbar-items">
                     <li class="nav-items"><i class="fa-brands fa-twitter"></i></li>
+                    <li class="nav-items"><i class="fa-brands fa-instagram"></i></li>
                     <li class="nav-items"><i class="fa-brands fa-square-facebook"></i></li>
-                    <li class="nav-items"><i class="fa-brands fa-square-facebook"></i></li>
-                    <li class="nav-items">FAQS</li>
-                    <li class="nav-items">Rates</li>
-                    <li class="nav-items"><a href ="/contactus.html">Contact</a></li>
-                    <li class="nav-items">Sign Up</li>
+                    <li class="nav-items"><a href ="/index.html">Home</a></li>
+                    <li class="nav-items"><a href ="/index.html">About Us</a></li>
+                    <li class="nav-items"><a href ="/index.html">Products</a></li>
+                    <li class="nav-items"><a href ="/index.html">Services</a></li>
+                    <li class="nav-items"><a href ="/contactus.html">Contact Us</a></li>
+                    <li class="nav-items"><a href = "/sign-up.html">Sign Up</a></li>
                     <li class="nav-items btn">Login</li>
                 </ul> 
         </nav>
     </header>
     
-  </div>  -->
+  </div> 
 <!--Navbar-->
    
 <!--Contact Section-->
-<section class="section contact">
+<section class="contact-section">
     <div class="container">
-        <div class="contact-box">
-            <div class="contact-info">
-                <div class="sign-up">
-                    <div class="signup-form">
-                      <div class="title-section">
-                      <h1> Get Started</h1>
-                      <p>Join for free. Cancel any time.</p>
-                      <p>No credit card required.</p>
-                      </div>
-                      <div class="form">
-                      <div class="form-input-name">
-                        <label for="text">First Name</label>
-                        <input type = "text" placeholder="" name="text">
-                         <label for="text">Last Name</label>
-                        <input type = "text" placeholder="" name="text">
-                      </div>
-                       <div class="form-input">
-                        <label for="email">Email</label>
-                        <input type = "email" placeholder="" name="email">
-                      </div>
-                       <div class="form-input">
-                        <label for="password">Password</label>
-                        <input type = "password" placeholder="" name="password">
-                          <button class = "submitBtn">Create Account</button>
-                      </div>
-                      <p>By clicking "Create account" above, you acknowledge that you have read and understood, and agree to Relume Library's Terms & Conditions, Licensing Agreement and Privacy Policy.</p>
-                    </div>
-                    </div>
-                    <div class="image-section">
-                        
-                    </div>
-                     
-                </div>
+      <div class="contact-box">
+        <div class="form-box">
+          <h1 class="title"><i class="fa-solid fa-paper-plane"></i> Send Us a Message</h1>
+          <div class="contact__form">
+          <form action="" method="post">
+            <div class="form-input-group">
+                 <label for="name">Your Name</label>
+                <input type="text" name="name" id="name" required>
             </div>
 
+            <div class="form-input-group">
+                <label for="name">Email Address</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="form-input-group">    
+              <label for="name">Phone Number</label>
+              <input type="tel" name="phonenumber" id="phonenumber" required>
+            </div>
+         
+        <div class="form-input-group">
+            <label for="name">Your Message</label>
+          <textarea rows="10"></textarea>
         </div>
+
+          <div class="send-message-button">
+              <a href="/" class = "cta-btn button">Send Message</a>
+          </div>
+        
+          
+        </form>
+          </div>
+         
+        </div>
+        
+        <div class="contact-box-info">
+          <h1 class="title">
+            <i class="fa-solid fa-location-dot"></i>
+            Find us at the store
+          </h1>
+          <p class="contact__info">
+            Shop 9U Village Plaza
+24 Constant Spring Road
+          </p>
+        </div>
+      </div>
     </div>
 </section>
    
@@ -84,35 +108,40 @@
   </section>
 <!--Line-->    
 <!--Footer-->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-items">
-                <div class="contact-us">
-                    <ul>
-                        <li>Contact Us</li>
-                        <li>info@dynamicshippingja.online</li>
-                        <li>876-999-0000</li>
-                    </ul>
-                </div>
-                <div class="social-links">
-                    <ul>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-square-facebook"></i></li>
-                        <li><i class="fa-brands fa-square-facebook"></i></li>
-                    </ul>
-                </div>
-        
-                <div class="terms">
-                    <ul>
-                        <li>Terms and Conditions</li>
-                        <li>Privacy Policy</li>
-                    </ul>
-                </div>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-items">
+            <div class="contact-us">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>info@dynamicshippingja.online</li>
+                    <li>876-999-0000</li>
+                </ul>
             </div>
-          
-            
+            <div class="social-links">
+                <ul>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                </ul>
+            </div>
+    
+            <div class="terms">
+                <ul>
+                    <li>Terms and Conditions</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
         </div>
-    </footer>
+      
+        
+    </div>
+  </footer>
 <!--Footer-->
 </body>
+  <script src="script.js"></script>
+
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
 </html>
