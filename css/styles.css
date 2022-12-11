@@ -582,6 +582,33 @@ padding: 6rem 0;
     .container{
         max-width: 300px;
     }
+
+    .cta-info{
+        padding:2rem 0;
+        width: 300px;
+    }
+
+    .image-section{
+        display: none;
+    }
+
+    .button{
+        width: 100%;
+        padding: 0.75rem;
+    }
+    .info{
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .heading
+    {
+        font-size: 3.5rem;
+        font-family: "Fira Sans", sans-serif;
+        line-height: 1;
+        margin-bottom: 0;
+    }
+
     .info-box{
         display: flex;
         flex-direction: column;
