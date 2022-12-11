@@ -200,8 +200,6 @@ nav{
 }
 
 
-
-
 .btn{
    
     border-radius: 20px;
@@ -230,6 +228,7 @@ nav{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     align-items: center;
+    /* row-gap: 10px; */
 }
 
 .heading{
@@ -252,6 +251,7 @@ nav{
     margin-top: 0;
     font-size: 1.5rem;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .info-text-2{
@@ -270,6 +270,7 @@ nav{
     font-weight: 500;
     border-radius: 40px;
     padding: 1rem 1.75rem;
+    margin-top: 30px;
     border: none;
     outline: none;
     cursor: pointer;
