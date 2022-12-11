@@ -200,6 +200,8 @@ nav{
 }
 
 
+
+
 .btn{
    
     border-radius: 20px;
@@ -581,6 +583,14 @@ padding: 6rem 0;
  
     .container{
         max-width: 300px;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar .fa-bars{
+        display: block;
     }
 
     .cta-info{
