@@ -593,11 +593,16 @@ padding: 6rem 0;
     .cta-info{
         padding:2rem 0;
         width: 300px;
+        display: flex;
+        flex-direction: column;
     }
 
-    .image-section{
-        display: none;
+    .image-section img{
+        width: 300px;
+        margin-top: 2rem
     }
+
+   
 
     .button{
         width: 100%;
