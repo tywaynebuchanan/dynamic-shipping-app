@@ -23,7 +23,7 @@ html{
     --blend-mode: 'darken, luminosity';
 }
 
-//Animations
+/*Animations*/
 
 .bounce2 {
     animation: bounce2 6s ease infinite;
@@ -36,7 +36,7 @@ html{
   }
 
 
-//Colors
+/*Colors*/
 
 .grey{
     color: var(--grey);
@@ -75,10 +75,10 @@ html{
     background-color: var(--orange);
 }
 
-.light:{
+/* .light{
     background-color: var(--light);
     color: var(--light);
-}
+} */
 
 a{
     text-decoration: none;
@@ -139,22 +139,31 @@ img {
 
 /*Navbar */
 
-.header{
-    display: flex;
-    padding: 1rem 0;
-}
 .navbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    height: 60px;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
-.menu{
+.navbar ul{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+.logo_div{
+    margin-right: auto;
 }
 
 .logo {
@@ -165,13 +174,6 @@ img {
     color: var(--light);
 }
 
-.navbar-items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 400;
-    color: var(--light);
-}
 
 .nav-items{
     display: flex;
@@ -205,14 +207,11 @@ img {
     
 }
 
-//Navbar End
+/*Navbar End*/
 
-//CTA Section 
+/*CTA Section */
 
-.cta{
-    padding: 4.8rem 0 9.6rem 0;
 
-}
 
 .cta-info{
     
@@ -304,20 +303,16 @@ img {
    
 }
 
-//CTA CSS End
+/*CTA CSS End*/
 
-//How it works section 
-
-.howwework{
-    padding: 4.8rem 0 9.6rem 0;
-}
-
-.howwework h1{
+/*How it works section */
+.howitworks{
+    color: white;
     text-align: center;
-    color:var(--light);
     font-size: 2.5rem;
     font-family: "Fira Sans", sans-serif;
 }
+
 
 .info-box{
     display: grid;
@@ -325,7 +320,7 @@ img {
     grid-template-columns: repeat(4,1fr);
     max-width: 130rem;
     margin: 0 auto;
-    padding: 6rem 0rem;
+    padding: 3rem 0rem 4rem;
     align-items: stretch;
     justify-content: center;
     gap: 30px;
