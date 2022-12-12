@@ -791,7 +791,7 @@ padding: 6rem 0;
     }
 
 
-}
+
 
 
     .form-box{ 
@@ -833,6 +833,19 @@ padding: 6rem 0;
     .sign-up__form .button-3{
         padding: 1rem;
         margin-bottom: 10px;
+    }
+
+    /* Mobile Menu*/
+
+    .navbar{
+        display: none;
+    }
+    #menu-icon{
+        /* color: var(--light);
+        font-size: 36px;
+        cursor: pointer;
+        z-index: 1001; */
+        display: block;
     }
 }
 
