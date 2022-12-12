@@ -372,7 +372,7 @@ header{
     align-items: stretch;
     justify-content: center;
     gap: 30px;
-    /* width: 100%; */
+  
    
 
 }
@@ -780,7 +780,6 @@ padding: 6rem 0;
         flex-direction: column;
         padding: 0;
         margin: 0;
-        height: 30vh;
       
     }
 
