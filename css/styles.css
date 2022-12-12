@@ -739,12 +739,19 @@ padding: 6rem 0;
 
     .heading
     {
-        font-size: 3.5rem;
+        font-size: 3rem;
         font-family: "Fira Sans", sans-serif;
         line-height: 1;
         margin-bottom: 0;
     }
 
+    .info-text-1{
+        font-size: 1.2rem;
+    }
+
+    .info-text-2{
+        font-size: 0.9rem;
+    }
     .info-box{
         display: flex;
         flex-direction: column;
@@ -762,7 +769,7 @@ padding: 6rem 0;
 
     
     .howitworks{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         text-align: center;
     }
 
