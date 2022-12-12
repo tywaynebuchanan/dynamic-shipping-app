@@ -802,6 +802,10 @@ padding: 6rem 0;
         align-items: center;
        
     }
+
+    .social-links .fa-brands{
+        font-size: 1.25rem;
+    }
    
 
     .terms ul{
