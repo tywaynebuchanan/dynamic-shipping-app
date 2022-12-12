@@ -845,7 +845,7 @@ padding: 6rem 0;
         font-size: 36px;
         cursor: pointer;
         z-index: 1001; */
-        display: block;
+        display: flex;
     }
 }
 
