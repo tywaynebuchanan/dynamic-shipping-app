@@ -476,12 +476,14 @@ nav{
 padding: 6rem 0;
 }
 
+
+
 .contact-box{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: var(--teil);
     border-radius: 10px;
 }
@@ -491,7 +493,7 @@ padding: 6rem 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start; 
-  width: 400px;
+  /* width: 400px; */
 
 }
 
@@ -502,6 +504,7 @@ padding: 6rem 0;
 .form-box .title{
     color: white;
     font-weight: 200;
+    margin-bottom: 1rem;
 }
 
 
