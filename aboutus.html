@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <!--Font Awesome-->
-    <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
-    <title>Dynamic Shipping &mdash; Your Courier Partner</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="css/styles.css">
+    
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+        <link rel="manifest" href="./favicon/site.webmanifest">
+        <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="#5bbad5">
+        
+        <!--Font Awesome-->
+        <script src="https://kit.fontawesome.com/3ca45502f4.js" crossorigin="anonymous"></script>
+    
+        <!--Remix Icons-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+        <title>Dynamic Shipping &mdash; Your Courier Partner</title>
+    </head>
 <body class="home-body">
-<!--Navbar-->
+ <!--New Navbar-->
+ <header>
+    <a href=""><img src="/img/logo-white.png" alt="" srcset="" class="logo"></a>
 
-<div class="navbar">
-    <nav>
-        <a href="/index.html"><img src="/img/logo-white.png" alt="" srcset="" class="logo"></a>
-         <ul>
-            <li class="nav-items"><i class="fa-brands fa-twitter"></i></li>
+    <ul class="navbar">
+        <li class="nav-items"><i class="fa-brands fa-twitter"></i></li>
             <li class="nav-items"><i class="fa-brands fa-instagram"></i></li>
             <li class="nav-items"><i class="fa-brands fa-square-facebook"></i></li>
             <li class="nav-items"><a href ="/index.html">Home</a></li>
@@ -26,11 +39,18 @@
             <li class="nav-items"><a href ="/contactus.html">Contact Us</a></li>
             <li class="nav-items"><a href = "/sign-up.html">Sign Up</a></li>
             <li class="nav-items btn">Login</li>
-            <!-- <li class="nav-items"><i class="fas fa-bars"></i></li> -->
-        </ul> 
-    </nav>
- </div>
-<!--Navbar End-->
+    </ul>
+
+    <div class="main">
+        <div id="menu-icon">
+            <i class="ri-close-line"></i>
+            <i class="ri-menu-3-line"></i>
+        </div>
+    </div>
+
+ </header>
+
+ <!--New Navbar End-->
 
 <main>
     <div class="container">
@@ -121,4 +141,6 @@
 
     
 </body>
+
+<script src="/js/main.js"></script>
 </html>
