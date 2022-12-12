@@ -300,6 +300,25 @@ nav{
 }
 
 
+.button-3{
+    width: 25%;
+    font-weight: 500;
+    border-radius: 40px;
+    padding: 0.5rem 1.75rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background: hsla(13, 90%, 58%, 1);
+    background: linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(13, 90%, 58%, 1) 0%, hsla(14, 89%, 71%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F46036", endColorstr="#F79072", GradientType=1 );
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+
+
 
 .image-section{
     width: 100%;
@@ -508,9 +527,6 @@ padding: 6rem 0;
 }
 
 
-
-
-
 .form-input-group input{
   width: 100%;
   border: none;
@@ -521,8 +537,6 @@ padding: 6rem 0;
   background-color: var(--dark-blue);
   color: var(--light);
 }
-
-
 
 .form-input-group label{
   color: var(--light);
@@ -574,6 +588,16 @@ padding: 6rem 0;
   font-weight: 500;
   text-decoration: underline;
 }
+
+.register{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+
 
 /*Contact US Page CSS End*/
 
@@ -660,7 +684,7 @@ padding: 6rem 0;
 @media screen and (max-width: 400px){
  
     .container{
-        max-width: 300px;
+        max-width: 350px;
         margin: 0 auto;
     }
 
@@ -758,6 +782,19 @@ padding: 6rem 0;
         display: inline;
     }
 
+    /*Contact Us */
+
+    .contact-box{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-box-info{
+        padding: 1rem;
+        text-align: center;
+        width: 350px;
+    }
 
 }
 
