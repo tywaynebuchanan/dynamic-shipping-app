@@ -8,6 +8,7 @@
 
 html{
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 :root{
@@ -844,7 +845,7 @@ padding: 6rem 0;
 
     .navbar{
         position: absolute;
-        top: 12%;
+        top: 14%;
         right: -100%;
         width: 350px;
         height: auto;
