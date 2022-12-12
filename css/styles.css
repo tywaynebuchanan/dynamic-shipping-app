@@ -838,12 +838,16 @@ padding: 6rem 0;
 
     /* Mobile Menu*/
 
+    header{
+        padding: 20px;
+    }
+
     .navbar{
         position: absolute;
-        top: 10%;
+        top: 12%;
         right: -100%;
         width: 350px;
-        height: 65vh;
+        height: 70vh;
         background: var(--teil);
         display: flex;
         flex-direction: column;
@@ -859,7 +863,11 @@ padding: 6rem 0;
         font-size: 36px;
         cursor: pointer;
         z-index: 1001; */
-        display: block;
+        display: flex;
+    }
+
+    .ri-close-line{
+        display: none;
     }
 
    .navbar.show{
