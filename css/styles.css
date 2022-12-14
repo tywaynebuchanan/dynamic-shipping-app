@@ -79,10 +79,9 @@ html{
     background-color: var(--orange);
 }
 
-/* .light{
-    background-color: var(--light);
-    color: var(--light);
-} */
+html{
+    overflow: hidden;
+}
 
 a{
     text-decoration: none;
