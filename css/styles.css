@@ -801,7 +801,7 @@ padding: 6rem 0;
     color: var(--light);
 }
 .dollar-amount{
-    text-align: center;
+    text-align: right;
 }
 .dollar-amount h1{
     background:linear-gradient(to right,var(--orange),var(--yellow));
