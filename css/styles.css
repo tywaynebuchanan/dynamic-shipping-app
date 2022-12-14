@@ -1057,7 +1057,54 @@ padding: 6rem 0;
   li.nav-items.btn{
     margin: 1rem;
   }
+
+  /* Rates*/
+.rates{
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
+.col-1{
+    width: 100%;
+}
+
+.rates-box {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center; */
+    /* gap: 20px; */
+}
+
+.pounds h1{
+    font-size: 1.5rem;
+}
+
+.dollar-amount h1{
+    font-size: 1.5rem;
+}
+
+.rates-box-2{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-2{
+    margin: 0 auto;
+    width: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+  
+
+}
 
 
