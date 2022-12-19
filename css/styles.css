@@ -469,11 +469,13 @@ header{
 .footer-items{
     width: 1000px;
     margin: 0 auto;
-    height: 40vh;
+    height: min-content;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 20px;
+
 
 }
 
