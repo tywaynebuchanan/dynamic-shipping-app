@@ -891,6 +891,11 @@ padding: 6rem 0;
         padding: 1rem;
     }
 
+    .line{
+        padding: 1rem;
+       
+    }
+
     .navbar ul{
         display: none;
     }
