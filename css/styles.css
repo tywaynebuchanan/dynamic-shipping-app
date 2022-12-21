@@ -842,6 +842,45 @@ padding: 6rem 0;
     color: var(--light) !important;
 }
 
+/*Card Section*/
+
+.cards{
+    padding: 5rem 1rem;
+}
+
+.card-container{
+    /* width: 900px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card__image{
+    height: 100%;
+    width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-image{
+    background-color: var(--darker-teil);
+    /* width: 100%; */
+}
+
+.card-image img{
+    width: 100px;
+    border-radius: 25%;
+}
+
+
 
 
 @media screen and (max-width: 450px){
